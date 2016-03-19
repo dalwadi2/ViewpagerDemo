@@ -60,7 +60,7 @@ public class LayoutAdapter extends RecyclerView.Adapter<LayoutAdapter.SimpleView
 
     @Override
     public SimpleViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        final View view = LayoutInflater.from(mContext).inflate(R.layout.item, parent, false);
+        final View view = LayoutInflater.from(mContext).inflate(R.layout.single_item_slide_show, parent, false);
         return new SimpleViewHolder(view);
     }
 
