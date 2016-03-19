@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/target_position"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Target Position"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/scroll_to_target_position"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Scroll To Target Position" />
+
+    <com.lsjwzh.widget.recyclerviewpager.LoopRecyclerViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:clipToPadding="false"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp" />
+</LinearLayout>
